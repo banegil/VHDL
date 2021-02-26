@@ -1,0 +1,34 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Sat Feb 20 00:48:33 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "coprocesador_0_R_pin<0>" LOCATE = SITE "P1" LEVEL 1;
+COMP "coprocesador_0_R_pin<1>" LOCATE = SITE "M4" LEVEL 1;
+COMP "coprocesador_0_R_pin<2>" LOCATE = SITE "H14" LEVEL 1;
+COMP "coprocesador_0_R_pin<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "coprocesador_0_S_pin<0>" LOCATE = SITE "G1" LEVEL 1;
+COMP "coprocesador_0_S_pin<1>" LOCATE = SITE "G3" LEVEL 1;
+COMP "coprocesador_0_S_pin<2>" LOCATE = SITE "G4" LEVEL 1;
+COMP "coprocesador_0_S_pin<3>" LOCATE = SITE "F2" LEVEL 1;
+COMP "plb_v46_0_PLB_Clk_pin" LOCATE = SITE "P8" LEVEL 1;
+COMP "xps_uartlite_0_RX_pin" LOCATE = SITE "G5" LEVEL 1;
+COMP "coprocesador_0_code_infrared_pin" LOCATE = SITE "D16" LEVEL 1;
+COMP "xps_uartlite_0_TX_pin" LOCATE = SITE "J2" LEVEL 1;
+COMP "altavozumbador_0_sonidozumbido_pin" LOCATE = SITE "M15" LEVEL 1;
+COMP "plb_v46_0_SYS_Rst_pin" LOCATE = SITE "K4" LEVEL 1;
+COMP "lcd_0_rs_pin" LOCATE = SITE "P12" LEVEL 1;
+COMP "lcd_0_rw_pin" LOCATE = SITE "J1" LEVEL 1;
+COMP "lcd_0_lcd_data_pin<0>" LOCATE = SITE "H3" LEVEL 1;
+COMP "lcd_0_lcd_data_pin<1>" LOCATE = SITE "G2" LEVEL 1;
+COMP "lcd_0_lcd_data_pin<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "lcd_0_lcd_data_pin<3>" LOCATE = SITE "K16" LEVEL 1;
+COMP "lcd_0_lcd_data_pin<4>" LOCATE = SITE "F15" LEVEL 1;
+COMP "lcd_0_lcd_data_pin<5>" LOCATE = SITE "E2" LEVEL 1;
+COMP "lcd_0_lcd_data_pin<6>" LOCATE = SITE "E1" LEVEL 1;
+COMP "lcd_0_lcd_data_pin<7>" LOCATE = SITE "F3" LEVEL 1;
+COMP "lcd_0_e_pin" LOCATE = SITE "H1" LEVEL 1;
+NET "plb_v46_0_PLB_Clk_pin_BUFGP/IBUFG" BEL
+        "plb_v46_0_PLB_Clk_pin_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

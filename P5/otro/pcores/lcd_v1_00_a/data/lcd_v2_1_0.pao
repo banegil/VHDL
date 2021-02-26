@@ -1,0 +1,12 @@
+##############################################################################
+## Filename:          C:/Users/baneg/Desktop/p3.C/otro/pcores/lcd_v1_00_a/data/lcd_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Fri Feb 19 15:01:06 2021 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib wrpfifo_v5_01_a  all 
+lib lcd_v1_00_a user_logic vhdl
+lib lcd_v1_00_a lcd vhdl
+lib lcd_v1_00_a lcd_controller vhdl

@@ -1,0 +1,168 @@
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 
+xst -intstyle ise -ifn "C:/Users/baneg/Desktop/SE/p1/prueba.xst" -ofn "C:/Users/baneg/Desktop/SE/p1/prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modelo3.0.ucf -p xc3s1000-ft256-5 prueba.ngc prueba.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prueba_map.ncd prueba.ngd prueba.pcf 
+par -w -intstyle ise -ol high -t 1 prueba_map.ncd prueba.ncd prueba.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prueba.twx prueba.ncd -o prueba.twr prueba.pcf -ucf modelo3.0.ucf 
+bitgen -intstyle ise -f prueba.ut prueba.ncd 

@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "C:\hlocal\otro\pcores\coprocesador_v1_00_a\devl\synthesis\coprocesador_xst.prj"
+-top coprocesador
+-p virtex6
+-ofn "C:\hlocal\otro\pcores\coprocesador_v1_00_a\devl\synthesis\coprocesador_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib coprocesador_v1_00_a

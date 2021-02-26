@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/baneg/Desktop/SE/practicas/P4/otro/pcores/pantalla_v1_00_a/devl/projnav/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/baneg/Desktop/SE/practicas/P4/otro/pcores/pantalla_v1_00_a/devl/projnav/xst"
+elaborate
+-ifn user_logic.prj
+-ifmt mixed

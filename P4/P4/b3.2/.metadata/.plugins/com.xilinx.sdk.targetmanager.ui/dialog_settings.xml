@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Users\baneg\workspace\peripheral_tests_0\Debug\peripheral_tests_0.elf" key="otro_hw_platform-microblaze_0-initElf"/>
+	<item value="C:\Users\baneg\workspace\otro_hw_platform\system.bit" key="otro_hw_platform-bitFile"/>
+	<item value="C:\Users\baneg\workspace\otro_hw_platform\system_bd.bmm" key="otro_hw_platform-bmmFile"/>
+</section>

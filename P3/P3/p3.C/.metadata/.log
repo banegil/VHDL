@@ -1,0 +1,12 @@
+!SESSION 2020-11-18 21:02:00.106 -----------------------------------------------
+eclipse.buildId=Release 14.1 Build SDK_P.15xf
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-11-18 21:06:01.151
+!MESSAGE Indexed 'peripheral_tests_0' (2 sources, 35 headers) in 2,47 sec: 1.154 declarations; 1.224 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0,04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-11-18 21:06:02.592
+!MESSAGE Indexed 'peripheral_tests_bsp_0' (37 sources, 37 headers) in 1,39 sec: 886 declarations; 4.302 references; 23 unresolved inclusions; 0 syntax errors; 49 unresolved names (0,94%)

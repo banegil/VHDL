@@ -1,0 +1,10 @@
+-batch 
+-create lcd 
+-ver 1.00.a 
+-dir "C:\Users\baneg\Desktop\p3.C\otro" 
+-lang vhdl 
+-bus plbv46 s 
+-wfifo 1 512 
+-xps 
+-ise 
+-driver 

@@ -1,0 +1,25 @@
+V3 15
+FL C:/Users/baneg/Desktop/SE/practicas/P4/otro/pcores/pantalla_v1_00_a/hdl/vhdl/pantalla.vhd 2020/11/28.14:48:11 P.15xf
+EN pantalla_v1_00_a/pantalla 1606590599 \
+      FL C:/Users/baneg/Desktop/SE/practicas/P4/otro/pcores/pantalla_v1_00_a/hdl/vhdl/pantalla.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1606590555 \
+      PB proc_common_v3_00_a/ipif_pkg 1606590580 LB wrpfifo_v5_01_a \
+      EN wrpfifo_v5_01_a/wrpfifo_top 1606590593 LB plbv46_slave_single_v1_01_a \
+      EN plbv46_slave_single_v1_01_a/plbv46_slave_single 1606590595 \
+      LB pantalla_v1_00_a EN pantalla_v1_00_a/user_logic 1606590597
+AR pantalla_v1_00_a/pantalla/IMP 1606590600 \
+      FL C:/Users/baneg/Desktop/SE/practicas/P4/otro/pcores/pantalla_v1_00_a/hdl/vhdl/pantalla.vhd \
+      EN pantalla_v1_00_a/pantalla 1606590599 \
+      CP plbv46_slave_single_v1_01_a/plbv46_slave_single \
+      CP wrpfifo_v5_01_a/wrpfifo_top CP pantalla_v1_00_a/user_logic
+FL C:/Users/baneg/Desktop/SE/practicas/P4/otro/pcores/pantalla_v1_00_a/hdl/vhdl/user_logic.vhd 2020/11/28.19:50:46 P.15xf
+EN pantalla_v1_00_a/user_logic 1606590597 \
+      FL C:/Users/baneg/Desktop/SE/practicas/P4/otro/pcores/pantalla_v1_00_a/hdl/vhdl/user_logic.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1606590555
+AR pantalla_v1_00_a/user_logic/IMP 1606590598 \
+      FL C:/Users/baneg/Desktop/SE/practicas/P4/otro/pcores/pantalla_v1_00_a/hdl/vhdl/user_logic.vhd \
+      EN pantalla_v1_00_a/user_logic 1606590597 CP vgacore CP counter2

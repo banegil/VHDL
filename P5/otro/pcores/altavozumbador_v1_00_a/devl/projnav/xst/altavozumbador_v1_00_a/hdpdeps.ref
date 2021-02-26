@@ -1,0 +1,24 @@
+V3 11
+FL C:/Users/baneg/Desktop/p3.C/otro/pcores/altavozumbador_v1_00_a/hdl/vhdl/altavozumbador.vhd 2021/02/17.15:23:33 P.15xf
+EN altavozumbador_v1_00_a/altavozumbador 1613571867 \
+      FL C:/Users/baneg/Desktop/p3.C/otro/pcores/altavozumbador_v1_00_a/hdl/vhdl/altavozumbador.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1613576474 \
+      PB proc_common_v3_00_a/ipif_pkg 1613571858 LB plbv46_slave_single_v1_01_a \
+      EN plbv46_slave_single_v1_01_a/plbv46_slave_single 1613571863 \
+      LB altavozumbador_v1_00_a EN altavozumbador_v1_00_a/user_logic 1613576475
+AR altavozumbador_v1_00_a/altavozumbador/IMP 1613571868 \
+      FL C:/Users/baneg/Desktop/p3.C/otro/pcores/altavozumbador_v1_00_a/hdl/vhdl/altavozumbador.vhd \
+      EN altavozumbador_v1_00_a/altavozumbador 1613571867 \
+      CP plbv46_slave_single_v1_01_a/plbv46_slave_single \
+      CP altavozumbador_v1_00_a/user_logic
+FL C:/Users/baneg/Desktop/p3.C/otro/pcores/altavozumbador_v1_00_a/hdl/vhdl/user_logic.vhd 2021/02/17.16:28:41 P.15xf
+EN altavozumbador_v1_00_a/user_logic 1613576475 \
+      FL C:/Users/baneg/Desktop/p3.C/otro/pcores/altavozumbador_v1_00_a/hdl/vhdl/user_logic.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1613576474
+AR altavozumbador_v1_00_a/user_logic/IMP 1613576476 \
+      FL C:/Users/baneg/Desktop/p3.C/otro/pcores/altavozumbador_v1_00_a/hdl/vhdl/user_logic.vhd \
+      EN altavozumbador_v1_00_a/user_logic 1613576475

@@ -1,0 +1,7 @@
+INFILE=C:\Users\baneg\Desktop\SE\practicas\P4\otro\implementation\system1.ncd
+OUTFILE=C:\Users\baneg\Desktop\SE\practicas\P4\otro\implementation\system1.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=C:\Users\baneg\Desktop\SE\practicas\P4\otro\implementation
+LICENSE=WebPack
+USER_INFO=210699396_1777489394_210552810_807

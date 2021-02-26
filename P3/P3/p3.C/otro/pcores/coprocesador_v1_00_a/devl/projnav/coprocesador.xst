@@ -1,0 +1,5 @@
+set -tmpdir "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/xst/projnav.tmp"
+set -xsthdpdir "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/xst"
+elaborate
+-ifn coprocesador.prj
+-ifmt mixed

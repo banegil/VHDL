@@ -1,0 +1,56 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.56 secs
+ 
+--> Parameter xsthdpdir set to C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.56 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/14.1/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
+Architecture proc_common_pkg of Entity proc_common_pkg is up to date.
+Compiling vhdl file "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" in Library work.
+ERROR:HDLParsers:3011 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 30. End Identifier divisor1_1Hz does not match declaration, divisor_1Hz.
+ERROR:HDLParsers:3010 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 32. Entity divisor_1Hz does not exist.
+ERROR:HDLParsers:3312 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 33. Undefined symbol 'std_logic_vector'.
+ERROR:HDLParsers:1209 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 33. std_logic_vector: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 34. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 34. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 39. Undefined symbol 'clk'.
+ERROR:HDLParsers:3312 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 39. Undefined symbol 'clk_in'.
+ERROR:HDLParsers:1209 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 39. clk_in: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 40. Undefined symbol 'clk_out'.
+ERROR:HDLParsers:3312 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 40. Undefined symbol 'clk_aux'.
+ERROR:HDLParsers:1209 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 40. clk_aux: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 42. Undefined symbol 'rst'.
+ERROR:HDLParsers:1209 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 42. rst: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 42. clk: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 44. = can not have such operands in this context.
+ERROR:HDLParsers:3312 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 45. Undefined symbol 'cuenta'.
+ERROR:HDLParsers:808 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 46. = can not have such operands in this context.
+ERROR:HDLParsers:808 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 47. = can not have such operands in this context.
+ERROR:HDLParsers:1209 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 49. cuenta: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd" Line 42. No sensitivity list and no wait in the process
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.16 secs
+ 
+--> 
+
+Total memory usage is 4480944 kilobytes
+
+Number of errors   :   20 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

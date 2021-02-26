@@ -1,0 +1,24 @@
+V3 15
+FL C:/Users/baneg/Desktop/SE/p1/debouncer.vhd 2014/07/18.19:26:22 P.15xf
+EN work/debouncer 1603041066 FL C:/Users/baneg/Desktop/SE/p1/debouncer.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/debouncer/debouncerArch 1603041067 \
+      FL C:/Users/baneg/Desktop/SE/p1/debouncer.vhd EN work/debouncer 1603041066
+FL C:/Users/baneg/Desktop/SE/p1/divisor1Hz.vhd 2020/10/18.01:40:46 P.15xf
+EN work/divisor1 1603041064 FL C:/Users/baneg/Desktop/SE/p1/divisor1Hz.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/divisor1/divisor1_arch 1603041065 \
+      FL C:/Users/baneg/Desktop/SE/p1/divisor1Hz.vhd EN work/divisor1 1603041064
+FL C:/Users/baneg/Desktop/SE/p1/prueba.vhd 2020/10/18.19:10:57 P.15xf
+EN work/prueba 1603041070 FL C:/Users/baneg/Desktop/SE/p1/prueba.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/STD_LOGIC_UNSIGNED 1335251625 \
+      PB ieee/std_logic_arith 1335251623
+AR work/prueba/Behavioral 1603041071 \
+      FL C:/Users/baneg/Desktop/SE/p1/prueba.vhd EN work/prueba 1603041070 \
+      CP divisor1 CP debouncer CP contador
+FL C:/Users/baneg/Desktop/SE/practicas/p1/contador.vhd 2020/10/18.14:39:31 P.15xf
+EN work/contador 1603041068 \
+      FL C:/Users/baneg/Desktop/SE/practicas/p1/contador.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/contador/rtl 1603041069 \
+      FL C:/Users/baneg/Desktop/SE/practicas/p1/contador.vhd EN work/contador 1603041068

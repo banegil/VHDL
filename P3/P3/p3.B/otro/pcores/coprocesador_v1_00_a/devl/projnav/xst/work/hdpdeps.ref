@@ -1,0 +1,8 @@
+V3 3
+FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/contador.vhd 2020/11/16.01:02:28 P.15xf
+EN work/contador 1605485200 \
+      FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/contador.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/contador/rtl 1605485201 \
+      FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/contador.vhd \
+      EN work/contador 1605485200

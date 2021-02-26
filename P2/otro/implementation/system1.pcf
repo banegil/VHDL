@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Thu Nov 26 21:36:39 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "pantalla_0_vsync_pin" LOCATE = SITE "D8" LEVEL 1;
+COMP "pantalla_0_p_rgb_pin<0>" LOCATE = SITE "C9" LEVEL 1;
+COMP "pantalla_0_p_rgb_pin<1>" LOCATE = SITE "E7" LEVEL 1;
+COMP "pantalla_0_p_rgb_pin<2>" LOCATE = SITE "D5" LEVEL 1;
+COMP "pantalla_0_p_rgb_pin<3>" LOCATE = SITE "A8" LEVEL 1;
+COMP "pantalla_0_p_rgb_pin<4>" LOCATE = SITE "A5" LEVEL 1;
+COMP "pantalla_0_p_rgb_pin<5>" LOCATE = SITE "C3" LEVEL 1;
+COMP "pantalla_0_p_rgb_pin<6>" LOCATE = SITE "C8" LEVEL 1;
+COMP "pantalla_0_p_rgb_pin<7>" LOCATE = SITE "D6" LEVEL 1;
+COMP "pantalla_0_p_rgb_pin<8>" LOCATE = SITE "B1" LEVEL 1;
+COMP "plb_v46_0_PLB_Clk_pin" LOCATE = SITE "P8" LEVEL 1;
+COMP "xps_uartlite_0_RX_pin" LOCATE = SITE "G5" LEVEL 1;
+COMP "xps_uartlite_0_TX_pin" LOCATE = SITE "J2" LEVEL 1;
+COMP "plb_v46_0_SYS_Rst_pin" LOCATE = SITE "K4" LEVEL 1;
+COMP "pantalla_0_hsync_pin" LOCATE = SITE "B7" LEVEL 1;
+NET "plb_v46_0_PLB_Clk_pin_BUFGP/IBUFG" BEL
+        "plb_v46_0_PLB_Clk_pin_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

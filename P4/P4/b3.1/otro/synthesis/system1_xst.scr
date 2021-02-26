@@ -1,0 +1,15 @@
+set -tmpdir C:\Users\baneg\Desktop\SE\practicas\P4\otro\synthesis\xst_temp_dir\
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc3s1000ft256-5
+-top system1
+-ifmt MIXED
+-ifn system1_xst.prj
+-ofn ../implementation/system1.ngc
+-hierarchy_separator /
+-iobuf YES
+-max_fanout 10000
+-sd {../implementation}
+-vlgincdir {"C:\Users\baneg\Desktop\SE\practicas\P4\otro\pcores\" "C:\Xilinx\14.1\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.1\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }

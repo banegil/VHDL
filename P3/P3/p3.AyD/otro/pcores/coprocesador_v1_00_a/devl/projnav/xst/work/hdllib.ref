@@ -1,0 +1,4 @@
+AR divisor_1hz divisor1_arch C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd sub00/vhpl03 1605813294
+EN divisor_1hz NULL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd sub00/vhpl02 1605813293
+EN contador NULL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/contador.vhd sub00/vhpl00 1605812484
+AR contador rtl C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/contador.vhd sub00/vhpl01 1605812485

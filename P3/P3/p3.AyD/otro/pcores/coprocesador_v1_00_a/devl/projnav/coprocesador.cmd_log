@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/coprocesador.xst" -ofn "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/coprocesador.syr" 
+xst -intstyle ise -ifn "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/coprocesador.xst" -ofn "C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/coprocesador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 coprocesador.ngc coprocesador.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o coprocesador_map.ncd coprocesador.ngd coprocesador.pcf 

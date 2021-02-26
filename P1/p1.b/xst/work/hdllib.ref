@@ -1,0 +1,8 @@
+AR debouncer debouncerarch C:/Users/baneg/Desktop/SE/p1/debouncer.vhd sub00/vhpl04 1603048442
+AR divisor1 divisor1_arch C:/Users/baneg/Desktop/SE/p1/divisor1Hz.vhd sub00/vhpl01 1603048440
+AR prueba behavioral C:/Users/baneg/Desktop/SE/p1/prueba.vhd sub00/vhpl07 1603048446
+EN prueba NULL C:/Users/baneg/Desktop/SE/p1/prueba.vhd sub00/vhpl02 1603048445
+EN divisor1 NULL C:/Users/baneg/Desktop/SE/p1/divisor1Hz.vhd sub00/vhpl00 1603048439
+EN debouncer NULL C:/Users/baneg/Desktop/SE/p1/debouncer.vhd sub00/vhpl03 1603048441
+EN contador NULL C:/Users/baneg/Desktop/SE/practicas/p1/contador.vhd sub00/vhpl05 1603048443
+AR contador rtl C:/Users/baneg/Desktop/SE/practicas/p1/contador.vhd sub00/vhpl06 1603048444

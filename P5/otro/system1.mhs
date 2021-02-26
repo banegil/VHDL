@@ -1,0 +1,93 @@
+
+ PARAMETER VERSION = 2.1.0
+
+
+ PORT plb_v46_0_SYS_Rst_pin = plb_v46_0_SYS_Rst, DIR = I, SIGIS = RST
+ PORT xps_uartlite_0_TX_pin = xps_uartlite_0_TX, DIR = O
+ PORT xps_uartlite_0_RX_pin = xps_uartlite_0_RX, DIR = I
+ PORT coprocesador_0_S_pin = coprocesador_0_S, DIR = O, VEC = [0:3]
+ PORT coprocesador_0_R_pin = coprocesador_0_R, DIR = I, VEC = [0:3]
+ PORT altavozumbador_0_sonidozumbido_pin = altavozumbador_0_sonidozumbido, DIR = O
+ PORT plb_v46_0_PLB_Clk_pin = plb_v46_0_PLB_Clk, DIR = I, SIGIS = CLK
+ PORT lcd_0_rw_pin = lcd_0_rw, DIR = O
+ PORT lcd_0_rs_pin = lcd_0_rs, DIR = O
+ PORT lcd_0_e_pin = lcd_0_e, DIR = O
+ PORT lcd_0_lcd_data_pin = lcd_0_lcd_data, DIR = O, VEC = [0:7]
+ PORT coprocesador_0_code_infrared_pin = coprocesador_0_code_infrared, DIR = O
+
+
+BEGIN microblaze
+ PARAMETER INSTANCE = microblaze_0
+ PARAMETER HW_VER = 8.30.a
+ BUS_INTERFACE DPLB = plb_v46_0
+ BUS_INTERFACE IPLB = plb_v46_0
+ PORT MB_RESET = plb_v46_0_SYS_Rst
+END
+
+BEGIN bram_block
+ PARAMETER INSTANCE = bram_block_0
+ PARAMETER HW_VER = 1.00.a
+ BUS_INTERFACE PORTA = xps_bram_if_cntlr_0_PORTA
+END
+
+BEGIN xps_bram_if_cntlr
+ PARAMETER INSTANCE = xps_bram_if_cntlr_0
+ PARAMETER HW_VER = 1.00.b
+ PARAMETER C_SPLB_NATIVE_DWIDTH = 32
+ PARAMETER C_BASEADDR = 0x00000000
+ PARAMETER C_HIGHADDR = 0x00007fff
+ BUS_INTERFACE SPLB = plb_v46_0
+ BUS_INTERFACE PORTA = xps_bram_if_cntlr_0_PORTA
+END
+
+BEGIN plb_v46
+ PARAMETER INSTANCE = plb_v46_0
+ PARAMETER HW_VER = 1.05.a
+ PORT PLB_Clk = plb_v46_0_PLB_Clk
+ PORT SYS_Rst = plb_v46_0_SYS_Rst
+END
+
+BEGIN xps_uartlite
+ PARAMETER INSTANCE = xps_uartlite_0
+ PARAMETER HW_VER = 1.02.a
+ PARAMETER C_USE_PARITY = 0
+ PARAMETER C_SPLB_CLK_FREQ_HZ = 50000000
+ PARAMETER C_BASEADDR = 0x84000000
+ PARAMETER C_HIGHADDR = 0x8400ffff
+ BUS_INTERFACE SPLB = plb_v46_0
+ PORT TX = xps_uartlite_0_TX
+ PORT RX = xps_uartlite_0_RX
+END
+
+BEGIN coprocesador
+ PARAMETER INSTANCE = coprocesador_0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0xcd000000
+ PARAMETER C_HIGHADDR = 0xcd00ffff
+ BUS_INTERFACE SPLB = plb_v46_0
+ PORT S = coprocesador_0_S
+ PORT R = coprocesador_0_R
+ PORT code_infrared = coprocesador_0_code_infrared
+END
+
+BEGIN altavozumbador
+ PARAMETER INSTANCE = altavozumbador_0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0xc9400000
+ PARAMETER C_HIGHADDR = 0xc940ffff
+ BUS_INTERFACE SPLB = plb_v46_0
+ PORT sonidozumbido = altavozumbador_0_sonidozumbido
+END
+
+BEGIN lcd
+ PARAMETER INSTANCE = lcd_0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0xcb400000
+ PARAMETER C_HIGHADDR = 0xcb40ffff
+ BUS_INTERFACE SPLB = plb_v46_0
+ PORT rw = lcd_0_rw
+ PORT rs = lcd_0_rs
+ PORT e = lcd_0_e
+ PORT lcd_data = lcd_0_lcd_data
+END
+

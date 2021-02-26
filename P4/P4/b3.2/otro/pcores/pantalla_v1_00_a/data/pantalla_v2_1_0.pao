@@ -1,0 +1,14 @@
+##############################################################################
+## Filename:          C:/Users/baneg/Desktop/SE/practicas/P2/otro/pcores/pantalla_v1_00_a/data/pantalla_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Thu Nov 26 19:11:14 2020 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib wrpfifo_v5_01_a  all 
+lib pantalla_v1_00_a user_logic vhdl
+lib pantalla_v1_00_a pantalla vhdl
+lib pantalla_v1_00_a counter2 vhdl
+lib pantalla_v1_00_a vgacore vhdl
+lib pantalla_v1_00_a debouncer vhdl

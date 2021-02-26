@@ -1,0 +1,4 @@
+vhdl work "../practicas/p1/contador.vhd"
+vhdl work "divisor1Hz.vhd"
+vhdl work "debouncer.vhd"
+vhdl work "prueba.vhd"

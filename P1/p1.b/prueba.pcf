@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Sun Oct 18 21:14:25 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "num3<0>" LOCATE = SITE "T13" LEVEL 1;
+COMP "num3<1>" LOCATE = SITE "L15" LEVEL 1;
+COMP "pGrande7seg<0>" LOCATE = SITE "E2" LEVEL 1;
+COMP "pGrande7seg<1>" LOCATE = SITE "E1" LEVEL 1;
+COMP "pGrande7seg<2>" LOCATE = SITE "F3" LEVEL 1;
+COMP "pGrande7seg<3>" LOCATE = SITE "F2" LEVEL 1;
+COMP "pGrande7seg<4>" LOCATE = SITE "G4" LEVEL 1;
+COMP "pGrande7seg<5>" LOCATE = SITE "G3" LEVEL 1;
+COMP "jugar" LOCATE = SITE "E11" LEVEL 1;
+COMP "pGrande7seg<6>" LOCATE = SITE "G1" LEVEL 1;
+COMP "bitBasura" LOCATE = SITE "J13" LEVEL 1;
+COMP "pGrande" LOCATE = SITE "J14" LEVEL 1;
+COMP "num1<0>" LOCATE = SITE "L5" LEVEL 1;
+COMP "num1<1>" LOCATE = SITE "N2" LEVEL 1;
+COMP "bitBasura2" LOCATE = SITE "H4" LEVEL 1;
+COMP "rst" LOCATE = SITE "A13" LEVEL 1;
+COMP "num2<0>" LOCATE = SITE "M3" LEVEL 1;
+COMP "num2<1>" LOCATE = SITE "N1" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

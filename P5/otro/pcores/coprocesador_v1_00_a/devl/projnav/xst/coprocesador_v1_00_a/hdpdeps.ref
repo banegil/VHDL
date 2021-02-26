@@ -1,0 +1,26 @@
+V3 14
+FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/hdl/vhdl/coprocesador.vhd 2020/11/16.12:18:09 P.15xf
+FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/hdl/vhdl/user_logic.vhd 2020/11/16.18:45:10 P.15xf
+FL C:/Users/baneg/Desktop/p3.C/otro/pcores/coprocesador_v1_00_a/hdl/vhdl/coprocesador.vhd 2021/02/20.00:35:50 P.15xf
+EN coprocesador_v1_00_a/coprocesador 1613777776 \
+      FL C:/Users/baneg/Desktop/p3.C/otro/pcores/coprocesador_v1_00_a/hdl/vhdl/coprocesador.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1613777755 \
+      PB proc_common_v3_00_a/ipif_pkg 1613777767 LB plbv46_slave_single_v1_01_a \
+      EN plbv46_slave_single_v1_01_a/plbv46_slave_single 1613777772 \
+      LB coprocesador_v1_00_a EN coprocesador_v1_00_a/user_logic 1613777774
+AR coprocesador_v1_00_a/coprocesador/IMP 1613777777 \
+      FL C:/Users/baneg/Desktop/p3.C/otro/pcores/coprocesador_v1_00_a/hdl/vhdl/coprocesador.vhd \
+      EN coprocesador_v1_00_a/coprocesador 1613777776 \
+      CP plbv46_slave_single_v1_01_a/plbv46_slave_single \
+      CP coprocesador_v1_00_a/user_logic
+FL C:/Users/baneg/Desktop/p3.C/otro/pcores/coprocesador_v1_00_a/hdl/vhdl/user_logic.vhd 2021/02/20.00:35:50 P.15xf
+EN coprocesador_v1_00_a/user_logic 1613777774 \
+      FL C:/Users/baneg/Desktop/p3.C/otro/pcores/coprocesador_v1_00_a/hdl/vhdl/user_logic.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625 LB proc_common_v3_00_a \
+      PB proc_common_v3_00_a/proc_common_pkg 1613777755
+AR coprocesador_v1_00_a/user_logic/IMP 1613777775 \
+      FL C:/Users/baneg/Desktop/p3.C/otro/pcores/coprocesador_v1_00_a/hdl/vhdl/user_logic.vhd \
+      EN coprocesador_v1_00_a/user_logic 1613777774 CP teclaDetect

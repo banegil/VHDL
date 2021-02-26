@@ -1,0 +1,41 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Mon Oct 19 17:19:10 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "num2<3>" LOCATE = SITE "N3" LEVEL 1;
+COMP "num1<7>" LOCATE = SITE "H4" LEVEL 1;
+COMP "basura<3>" LOCATE = SITE "L15" LEVEL 1;
+COMP "num3<0>" LOCATE = SITE "R10" LEVEL 1;
+COMP "num2<4>" LOCATE = SITE "M15" LEVEL 1;
+COMP "basura<4>" LOCATE = SITE "J13" LEVEL 1;
+COMP "num3<1>" LOCATE = SITE "P10" LEVEL 1;
+COMP "num2<5>" LOCATE = SITE "H13" LEVEL 1;
+COMP "num3<2>" LOCATE = SITE "M11" LEVEL 1;
+COMP "num2<6>" LOCATE = SITE "G16" LEVEL 1;
+COMP "num3<3>" LOCATE = SITE "M6" LEVEL 1;
+COMP "num2<7>" LOCATE = SITE "N15" LEVEL 1;
+COMP "num3<4>" LOCATE = SITE "N6" LEVEL 1;
+COMP "num3<5>" LOCATE = SITE "T7" LEVEL 1;
+COMP "num3<6>" LOCATE = SITE "R7" LEVEL 1;
+COMP "num3<7>" LOCATE = SITE "N11" LEVEL 1;
+COMP "jugar" LOCATE = SITE "E11" LEVEL 1;
+COMP "pGrande" LOCATE = SITE "J14" LEVEL 1;
+COMP "num1<0>" LOCATE = SITE "E2" LEVEL 1;
+COMP "num1<1>" LOCATE = SITE "E1" LEVEL 1;
+COMP "num1<2>" LOCATE = SITE "F3" LEVEL 1;
+COMP "pMedio" LOCATE = SITE "T13" LEVEL 1;
+COMP "num1<3>" LOCATE = SITE "F2" LEVEL 1;
+COMP "rst" LOCATE = SITE "A13" LEVEL 1;
+COMP "num2<0>" LOCATE = SITE "H14" LEVEL 1;
+COMP "num1<4>" LOCATE = SITE "G4" LEVEL 1;
+COMP "basura<0>" LOCATE = SITE "L5" LEVEL 1;
+COMP "num2<1>" LOCATE = SITE "M4" LEVEL 1;
+COMP "num1<5>" LOCATE = SITE "G3" LEVEL 1;
+COMP "basura<1>" LOCATE = SITE "N2" LEVEL 1;
+COMP "num2<2>" LOCATE = SITE "P1" LEVEL 1;
+COMP "num1<6>" LOCATE = SITE "G1" LEVEL 1;
+COMP "basura<2>" LOCATE = SITE "M3" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

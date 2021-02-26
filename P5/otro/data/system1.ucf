@@ -1,0 +1,69 @@
+NET plb_v46_0_PLB_Clk_pin LOC=P8;
+NET "plb_v46_0_PLB_Clk_pin" FLOAT;
+
+NET plb_v46_0_SYS_Rst_pin LOC=K4;
+NET "plb_v46_0_SYS_Rst_pin" FLOAT;
+
+NET xps_uartlite_0_RX_pin LOC=G5;
+NET "xps_uartlite_0_RX_pin" FLOAT;
+NET xps_uartlite_0_TX_pin LOC=J2;
+NET "xps_uartlite_0_TX_pin" FLOAT;
+
+#INFRARROJO
+NET coprocesador_0_code_infrared_pin LOC = D16 | iostandard=LVCMOS25;
+
+#ALTAVOZ Y ZUMBADOR
+NET altavozumbador_0_sonidozumbido_pin LOC = M15 | iostandard=LVCMOS25;
+
+#KEYPAD
+NET coprocesador_0_S_pin<3> loc=F2;
+NET coprocesador_0_S_pin<3> iostandard=LVCMOS25;
+NET coprocesador_0_S_pin<2> loc=G4;
+NET coprocesador_0_S_pin<2> iostandard=LVCMOS25;
+NET coprocesador_0_S_pin<1> loc=G3;
+NET coprocesador_0_S_pin<1> iostandard=LVCMOS25;
+NET coprocesador_0_S_pin<0> loc=G1;
+NET coprocesador_0_S_pin<0> iostandard=LVCMOS25;
+
+NET coprocesador_0_R_pin<3> loc=J14;
+NET coprocesador_0_R_pin<3> iostandard=LVCMOS25;
+NET coprocesador_0_R_pin<2> loc=H14;
+NET coprocesador_0_R_pin<2> iostandard=LVCMOS25;
+NET coprocesador_0_R_pin<1> loc=M4;
+NET coprocesador_0_R_pin<1> iostandard=LVCMOS25;
+NET coprocesador_0_R_pin<0> loc=P1;
+NET coprocesador_0_R_pin<0> iostandard=LVCMOS25;
+
+#LCD Y BANNER
+NET lcd_0_rs_pin LOC=P12;
+NET lcd_0_rw_pin LOC=J1; #Este no se usa en la placa nueva (sólo se escribe)
+NET lcd_0_e_pin LOC=H1;
+NET lcd_0_lcd_data_pin<0> LOC=H3;
+NET lcd_0_lcd_data_pin<1> LOC=G2;
+NET lcd_0_lcd_data_pin<2> LOC=K15;
+NET lcd_0_lcd_data_pin<3> LOC=K16;
+NET lcd_0_lcd_data_pin<4> LOC=F15;
+NET lcd_0_lcd_data_pin<5> LOC=E2;
+NET lcd_0_lcd_data_pin<6> LOC=E1;
+NET lcd_0_lcd_data_pin<7> LOC=F3;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

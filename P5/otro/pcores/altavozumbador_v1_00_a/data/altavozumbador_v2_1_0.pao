@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          C:/Users/baneg/Desktop/p3.C/otro/pcores/altavozumbador_v1_00_a/data/altavozumbador_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Wed Feb 17 14:29:14 2021 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib altavozumbador_v1_00_a user_logic vhdl
+lib altavozumbador_v1_00_a altavozumbador vhdl

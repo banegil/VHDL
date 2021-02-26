@@ -1,0 +1,142 @@
+#ucf para la Spartan 3S100 con los puntos de los displays 7-seg
+#salida del oscilador a 100MHz
+#
+#NET clk_in LOC=T9;
+#
+
+	#switches placa superior
+
+#NET SW<1> LOC=K4;
+#NET SW<2> LOC=K3;
+#NET SW<3> LOC=K2;
+#NET SW<4> LOC=J4;
+
+	#switches placa extendida
+
+#NET switches_GPIO_IO<0> LOC=P12;
+#NET switches_GPIO_IO<1> LOC=J1;
+#NET switches_GPIO_IO<2> LOC=H1;
+#NET switches_GPIO_IO<3> LOC=H3;
+#NET switches_GPIO_IO<4> LOC=G2;
+#NET switches_GPIO_IO<5> LOC=K15;
+#NET switches_GPIO_IO<6> LOC=K16;
+#NET switches_GPIO_IO<7> LOC=F15;
+
+#
+	#push buttons placa superior
+NET pantalla_0_botonIz_pin LOC=E11; 
+NET pantalla_0_botonDer_pin LOC=A13; 
+
+	# Push button placa extendida
+#NET pushb1 LOC=H4;
+#NET pushb2 LOC=L5;
+#NET pushb3 LOC=N2;
+#NET pushb4 LOC=M3;
+
+
+#barra de leds placa extendida
+
+#NET "leds_GPIO_IO<0>" FLOAT;
+#NET "leds_GPIO_IO<1>" FLOAT;
+#NET "leds_GPIO_IO<2>" FLOAT;
+#NET "leds_GPIO_IO<3>" FLOAT;
+#NET leds_GPIO_IO<0> LOC=L5;
+#NET leds_GPIO_IO<1> LOC=N2;
+#NET leds_GPIO_IO<2> LOC=M3;
+#NET leds_GPIO_IO<3> LOC=N1;
+#NET "leds_GPIO_IO<4>" FLOAT;
+#NET "leds_GPIO_IO<5>" FLOAT;
+#NET "leds_GPIO_IO<6>" FLOAT;
+#NET "leds_GPIO_IO<7>" FLOAT;
+#NET leds_GPIO_IO<4> LOC=T13;
+#NET leds_GPIO_IO<5> LOC=L15;
+#NET leds_GPIO_IO<6> LOC=J13;
+#NET leds_GPIO_IO<7> LOC=H15;
+#NET leds<8> LOC=J16;
+#NET leds<9> LOC=J14;
+
+NET plb_v46_0_PLB_Clk_pin LOC=P8;
+NET "plb_v46_0_PLB_Clk_pin" FLOAT;
+
+NET plb_v46_0_SYS_Rst_pin LOC=K4;
+NET "plb_v46_0_SYS_Rst_pin" FLOAT;
+
+NET xps_uartlite_0_RX_pin LOC=G5;
+NET "xps_uartlite_0_RX_pin" FLOAT;
+NET xps_uartlite_0_TX_pin LOC=J2;
+NET "xps_uartlite_0_TX_pin" FLOAT;
+
+#Display 7-segmentos 
+#
+#		   S0
+#		   ---
+#	    S5	|	|s1
+#		    S6
+#		   ---
+#	    S4	|	|S2
+#
+#		   ---
+#		   S3				punto
+
+
+#Display 7-segmentos de la placa superior
+
+#net num3(0) loc=R10;
+#net num3(1) loc=P10;
+#net num3(2) loc=M11;
+#NET num3(3) loc=M6;
+#NET num3(4) loc=N6;
+#NET num3(5) loc=T7;
+#NET num3(6) loc=R7;
+#NET num3(7) loc=N11;  # punto
+
+
+
+#Display 7-segmentos de la parte izquierda de la placa extendida:
+
+#NET num2(0) LOC=H14;
+#NET num2(1) LOC=M4;
+#NET num2(2) LOC=P1;
+#NET num2(3) LOC=N3;
+#NET num2(4) LOC=M15;
+#NET num2(5) LOC=H13;
+#NET num2(6) LOC=G16;
+#NET num2(7) LOC=N15;  # punto
+
+
+
+
+#Display 7-segmentos de la parte derecha de la placa extendida
+
+#NET num1(0) loc=E2;
+#NET num1(1) loc=E1;
+#NET num1(2) loc=F3;
+#NET num1(3) loc=F2;
+#NET num1(4) loc=G4;
+#NET num1(5) loc=G3;
+#NET num1(6) loc=G1;
+#NET num1(7) loc=H4; # punto
+
+
+## VGA #################################
+Net pantalla_0_hsync_pin LOC=B7;
+Net pantalla_0_vsync_pin LOC=D8;
+Net pantalla_0_p_rgb_pin<0> LOC=C9;
+Net pantalla_0_p_rgb_pin<1> LOC=E7;
+Net pantalla_0_p_rgb_pin<2> LOC=D5;
+Net pantalla_0_p_rgb_pin<3> LOC=A8;
+Net pantalla_0_p_rgb_pin<4> LOC=A5;
+Net pantalla_0_p_rgb_pin<5> LOC=C3;
+Net pantalla_0_p_rgb_pin<6> LOC=C8;
+Net pantalla_0_p_rgb_pin<7> LOC=D6;
+Net pantalla_0_p_rgb_pin<8> LOC=B1;
+
+
+
+
+
+
+
+
+
+

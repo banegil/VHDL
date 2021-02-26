@@ -1,0 +1,135 @@
+/*****************************************************************************
+* Filename:          C:\Users\baneg\Desktop\ProyectoFinal/drivers/keypad_v1_00_a/src/keypad_selftest.c
+* Version:           1.00.a
+* Description:       Contains a diagnostic self-test function for the keypad driver
+* Date:              Tue Feb 16 12:19:33 2021 (by Create and Import Peripheral Wizard)
+*****************************************************************************/
+
+
+/***************************** Include Files *******************************/
+
+#include "coprocesador.h"
+
+/************************** Constant Definitions ***************************/
+
+
+/************************** Variable Definitions ****************************/
+
+
+/************************** Function Definitions ***************************/
+
+/**
+ *
+ * Run a self-test on the driver/device. Note this may be a destructive test if
+ * resets of the device are performed.
+ *
+ * If the hardware system is not built correctly, this function may never
+ * return to the caller.
+ *
+ * @param   baseaddr_p is the base address of the KEYPAD instance to be worked on.
+ *
+ * @return
+ *
+ *    - XST_SUCCESS   if all self-test code passed
+ *    - XST_FAILURE   if any self-test code failed
+ *
+ * @note    Caching must be turned off for this function to work.
+ * @note    Self test may fail if data memory and device are not on the same bus.
+ *
+ */
+
+# define BASE_ADDRESS_KEYPAD 0xCD000000
+
+
+XStatus KEYPAD_SelfTest(char key)
+{
+  Xuint32 baseaddr;
+  Xuint32 a, TeclaOld;
+  
+  /*
+   * Check and get the device address
+   */
+  /*
+   * Base Address maybe 0. Up to developer to uncomment line below.
+  XASSERT_NONVOID(baseaddr_p != XNULL);
+   */
+  baseaddr = (Xuint32) BASE_ADDRESS_KEYPAD;
+
+  print("KEYPAD y RECEPTOR/EMISOR INFRARROJOS\n\r");
+  xil_printf(" Pulse una tecla cualquiera, la 'F' es para salir del modo keypad\n\r");
+  a = COPROCESADOR_mReadReg ( baseaddr , 0);
+  a = convert(a / 0x10000000);
+
+  COPROCESADOR_mWriteReg ( baseaddr , 0 ,0);
+  TeclaOld = a;
+
+  while (a != 0xf) {
+	  if ( a != TeclaOld ) {
+		  xil_printf (" Se ha leido %X del registro 0 del teclado \n\r" , a);
+		  TeclaOld = a ;
+	  }
+
+  a = COPROCESADOR_mReadReg ( baseaddr , 0);
+  a = convert(a / 0x10000000);
+  }
+  while(COPROCESADOR_mWriteSlaveReg0(BaseAddress, 0, 0));
+
+  return XST_SUCCESS;
+}
+
+Xuint32 convert(Xuint32 i){
+	Xuint32 ret = 0x0;
+
+	switch(i) {
+	case 0x0:
+		ret = 0x3;
+	  break;
+	case 0x1:
+		ret = 0xC;
+	  break;
+	case 0x2 :
+		ret = 0xB;
+	  break;
+	case 0x3 :
+		ret = 0x0;
+	  break;
+	case 0x4 :
+		ret = 0xD;
+	  break;
+	case 0x5 :
+		ret = 0x9;
+	  break;
+	case 0x6 :
+		ret = 0x8;
+	  break;
+	case 0x7 :
+		ret = 0xE;
+	  break;
+	case 0x8 :
+		ret = 0x6;
+	  break;
+	case 0x9 :
+		ret = 0x5;
+	  break;
+	case 0xA :
+		ret = 0xF;
+	  break;
+	case 0xB :
+		ret = 0x2;
+	  break;
+	case 0xC :
+		ret = 0x1;
+	  break;
+	case 0xD :
+		ret = 0x4;
+	  break;
+	case 0xE :
+		ret = 0x7;
+	  break;
+	case 0xF :
+		ret = 0xA;
+	  break;
+	}
+	return ret;
+}
+

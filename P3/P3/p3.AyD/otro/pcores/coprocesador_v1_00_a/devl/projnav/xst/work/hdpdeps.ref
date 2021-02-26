@@ -1,0 +1,15 @@
+V3 6
+FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/contador.vhd 2020/11/19.19:19:27 P.15xf
+EN work/contador 1605812484 \
+      FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/contador.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/contador/rtl 1605812485 \
+      FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/contador.vhd \
+      EN work/contador 1605812484
+FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd 2020/11/18.20:21:28 P.15xf
+EN work/divisor_1Hz 1605813293 \
+      FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/divisor_1Hz/divisor1_arch 1605813294 \
+      FL C:/hlocal/otro/pcores/coprocesador_v1_00_a/devl/projnav/divisor_1Hz.vhd \
+      EN work/divisor_1Hz 1605813293

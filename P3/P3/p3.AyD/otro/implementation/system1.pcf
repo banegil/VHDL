@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.15xf on Thu Nov 19 22:34:27 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "plb_v46_0_PLB_Clk_pin" LOCATE = SITE "P8" LEVEL 1;
+COMP "coprocesador_0_leds_pin<0>" LOCATE = SITE "L5" LEVEL 1;
+COMP "coprocesador_0_leds_pin<1>" LOCATE = SITE "N2" LEVEL 1;
+COMP "coprocesador_0_leds_pin<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "coprocesador_0_leds_pin<3>" LOCATE = SITE "N1" LEVEL 1;
+COMP "coprocesador_0_leds_pin<4>" LOCATE = SITE "T13" LEVEL 1;
+COMP "coprocesador_0_leds_pin<5>" LOCATE = SITE "L15" LEVEL 1;
+COMP "coprocesador_0_leds_pin<6>" LOCATE = SITE "J13" LEVEL 1;
+COMP "coprocesador_0_leds_pin<7>" LOCATE = SITE "H15" LEVEL 1;
+COMP "xps_uartlite_0_RX_pin" LOCATE = SITE "G5" LEVEL 1;
+COMP "xps_uartlite_0_TX_pin" LOCATE = SITE "J2" LEVEL 1;
+COMP "coprocesador_0_switches_pin<2>" LOCATE = SITE "H1" LEVEL 1;
+COMP "plb_v46_0_SYS_Rst_pin" LOCATE = SITE "K4" LEVEL 1;
+NET "plb_v46_0_PLB_Clk_pin_BUFGP/IBUFG" BEL
+        "plb_v46_0_PLB_Clk_pin_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

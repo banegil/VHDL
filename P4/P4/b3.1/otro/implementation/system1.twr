@@ -1,0 +1,156 @@
+--------------------------------------------------------------------------------
+Release 14.1 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -e 3 -xml system1.twx
+system1.ncd system1.pcf
+
+Design file:              system1.ncd
+Physical constraint file: system1.pcf
+Device,package,speed:     xc3s1000,ft256,-5 (PRODUCTION 1.39 2012-04-23)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock plb_v46_0_PLB_Clk_pin
+---------------------+------------+------------+---------------------------+--------+
+                     |Max Setup to|Max Hold to |                           | Clock  |
+Source               | clk (edge) | clk (edge) |Internal Clock(s)          | Phase  |
+---------------------+------------+------------+---------------------------+--------+
+plb_v46_0_SYS_Rst_pin|    3.336(R)|   -0.592(R)|plb_v46_0_PLB_Clk_pin_BUFGP|   0.000|
+xps_uartlite_0_RX_pin|    3.342(R)|   -1.221(R)|plb_v46_0_PLB_Clk_pin_BUFGP|   0.000|
+---------------------+------------+------------+---------------------------+--------+
+
+Clock plb_v46_0_PLB_Clk_pin to Pad
+---------------------+------------+---------------------------+--------+
+                     | clk (edge) |                           | Clock  |
+Destination          |   to PAD   |Internal Clock(s)          | Phase  |
+---------------------+------------+---------------------------+--------+
+xps_uartlite_0_TX_pin|    6.523(R)|plb_v46_0_PLB_Clk_pin_BUFGP|   0.000|
+---------------------+------------+---------------------------+--------+
+
+Clock to Setup on destination clock plb_v46_0_PLB_Clk_pin
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+plb_v46_0_PLB_Clk_pin|    9.335|         |         |         |
+---------------------+---------+---------+---------+---------+
+
+Pad to Pad
+----------------------------+-----------------------+---------+
+Source Pad                  |Destination Pad        |  Delay  |
+----------------------------+-----------------------+---------+
+pantalla_0_s_columnas_pin<0>|pantalla_0_p_rgb_pin<0>|   14.445|
+pantalla_0_s_columnas_pin<0>|pantalla_0_p_rgb_pin<1>|   15.165|
+pantalla_0_s_columnas_pin<0>|pantalla_0_p_rgb_pin<2>|   15.521|
+pantalla_0_s_columnas_pin<0>|pantalla_0_p_rgb_pin<3>|   14.549|
+pantalla_0_s_columnas_pin<0>|pantalla_0_p_rgb_pin<4>|   14.282|
+pantalla_0_s_columnas_pin<0>|pantalla_0_p_rgb_pin<5>|   15.446|
+pantalla_0_s_columnas_pin<0>|pantalla_0_p_rgb_pin<6>|   14.059|
+pantalla_0_s_columnas_pin<0>|pantalla_0_p_rgb_pin<7>|   14.828|
+pantalla_0_s_columnas_pin<0>|pantalla_0_p_rgb_pin<8>|   14.471|
+pantalla_0_s_columnas_pin<1>|pantalla_0_p_rgb_pin<0>|   14.690|
+pantalla_0_s_columnas_pin<1>|pantalla_0_p_rgb_pin<1>|   15.410|
+pantalla_0_s_columnas_pin<1>|pantalla_0_p_rgb_pin<2>|   15.766|
+pantalla_0_s_columnas_pin<1>|pantalla_0_p_rgb_pin<3>|   14.794|
+pantalla_0_s_columnas_pin<1>|pantalla_0_p_rgb_pin<4>|   14.527|
+pantalla_0_s_columnas_pin<1>|pantalla_0_p_rgb_pin<5>|   15.691|
+pantalla_0_s_columnas_pin<1>|pantalla_0_p_rgb_pin<6>|   14.304|
+pantalla_0_s_columnas_pin<1>|pantalla_0_p_rgb_pin<7>|   15.073|
+pantalla_0_s_columnas_pin<1>|pantalla_0_p_rgb_pin<8>|   14.716|
+pantalla_0_s_columnas_pin<2>|pantalla_0_p_rgb_pin<0>|   15.099|
+pantalla_0_s_columnas_pin<2>|pantalla_0_p_rgb_pin<1>|   15.819|
+pantalla_0_s_columnas_pin<2>|pantalla_0_p_rgb_pin<2>|   16.175|
+pantalla_0_s_columnas_pin<2>|pantalla_0_p_rgb_pin<3>|   15.203|
+pantalla_0_s_columnas_pin<2>|pantalla_0_p_rgb_pin<4>|   14.936|
+pantalla_0_s_columnas_pin<2>|pantalla_0_p_rgb_pin<5>|   16.100|
+pantalla_0_s_columnas_pin<2>|pantalla_0_p_rgb_pin<6>|   14.713|
+pantalla_0_s_columnas_pin<2>|pantalla_0_p_rgb_pin<7>|   15.482|
+pantalla_0_s_columnas_pin<2>|pantalla_0_p_rgb_pin<8>|   15.125|
+pantalla_0_s_columnas_pin<3>|pantalla_0_p_rgb_pin<0>|   15.283|
+pantalla_0_s_columnas_pin<3>|pantalla_0_p_rgb_pin<1>|   16.003|
+pantalla_0_s_columnas_pin<3>|pantalla_0_p_rgb_pin<2>|   16.359|
+pantalla_0_s_columnas_pin<3>|pantalla_0_p_rgb_pin<3>|   15.387|
+pantalla_0_s_columnas_pin<3>|pantalla_0_p_rgb_pin<4>|   15.120|
+pantalla_0_s_columnas_pin<3>|pantalla_0_p_rgb_pin<5>|   16.284|
+pantalla_0_s_columnas_pin<3>|pantalla_0_p_rgb_pin<6>|   14.897|
+pantalla_0_s_columnas_pin<3>|pantalla_0_p_rgb_pin<7>|   15.666|
+pantalla_0_s_columnas_pin<3>|pantalla_0_p_rgb_pin<8>|   15.309|
+pantalla_0_s_filas_pin<0>   |pantalla_0_p_rgb_pin<0>|   17.144|
+pantalla_0_s_filas_pin<0>   |pantalla_0_p_rgb_pin<1>|   17.864|
+pantalla_0_s_filas_pin<0>   |pantalla_0_p_rgb_pin<2>|   18.220|
+pantalla_0_s_filas_pin<0>   |pantalla_0_p_rgb_pin<3>|   17.248|
+pantalla_0_s_filas_pin<0>   |pantalla_0_p_rgb_pin<4>|   16.981|
+pantalla_0_s_filas_pin<0>   |pantalla_0_p_rgb_pin<5>|   18.145|
+pantalla_0_s_filas_pin<0>   |pantalla_0_p_rgb_pin<6>|   16.758|
+pantalla_0_s_filas_pin<0>   |pantalla_0_p_rgb_pin<7>|   17.527|
+pantalla_0_s_filas_pin<0>   |pantalla_0_p_rgb_pin<8>|   17.170|
+pantalla_0_s_filas_pin<1>   |pantalla_0_p_rgb_pin<0>|   13.425|
+pantalla_0_s_filas_pin<1>   |pantalla_0_p_rgb_pin<1>|   14.145|
+pantalla_0_s_filas_pin<1>   |pantalla_0_p_rgb_pin<2>|   14.501|
+pantalla_0_s_filas_pin<1>   |pantalla_0_p_rgb_pin<3>|   13.529|
+pantalla_0_s_filas_pin<1>   |pantalla_0_p_rgb_pin<4>|   13.262|
+pantalla_0_s_filas_pin<1>   |pantalla_0_p_rgb_pin<5>|   14.426|
+pantalla_0_s_filas_pin<1>   |pantalla_0_p_rgb_pin<6>|   13.039|
+pantalla_0_s_filas_pin<1>   |pantalla_0_p_rgb_pin<7>|   13.808|
+pantalla_0_s_filas_pin<1>   |pantalla_0_p_rgb_pin<8>|   13.451|
+pantalla_0_s_filas_pin<2>   |pantalla_0_p_rgb_pin<0>|   14.515|
+pantalla_0_s_filas_pin<2>   |pantalla_0_p_rgb_pin<1>|   15.235|
+pantalla_0_s_filas_pin<2>   |pantalla_0_p_rgb_pin<2>|   15.591|
+pantalla_0_s_filas_pin<2>   |pantalla_0_p_rgb_pin<3>|   14.619|
+pantalla_0_s_filas_pin<2>   |pantalla_0_p_rgb_pin<4>|   14.352|
+pantalla_0_s_filas_pin<2>   |pantalla_0_p_rgb_pin<5>|   15.516|
+pantalla_0_s_filas_pin<2>   |pantalla_0_p_rgb_pin<6>|   14.129|
+pantalla_0_s_filas_pin<2>   |pantalla_0_p_rgb_pin<7>|   14.898|
+pantalla_0_s_filas_pin<2>   |pantalla_0_p_rgb_pin<8>|   14.541|
+pantalla_0_s_filas_pin<3>   |pantalla_0_p_rgb_pin<0>|   14.547|
+pantalla_0_s_filas_pin<3>   |pantalla_0_p_rgb_pin<1>|   15.267|
+pantalla_0_s_filas_pin<3>   |pantalla_0_p_rgb_pin<2>|   15.623|
+pantalla_0_s_filas_pin<3>   |pantalla_0_p_rgb_pin<3>|   14.651|
+pantalla_0_s_filas_pin<3>   |pantalla_0_p_rgb_pin<4>|   14.384|
+pantalla_0_s_filas_pin<3>   |pantalla_0_p_rgb_pin<5>|   15.548|
+pantalla_0_s_filas_pin<3>   |pantalla_0_p_rgb_pin<6>|   14.161|
+pantalla_0_s_filas_pin<3>   |pantalla_0_p_rgb_pin<7>|   14.930|
+pantalla_0_s_filas_pin<3>   |pantalla_0_p_rgb_pin<8>|   14.573|
+----------------------------+-----------------------+---------+
+
+
+Analysis completed Sun Nov 29 21:35:14 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4559 MB
+
+
+

@@ -1,0 +1,1 @@
+ -p spartan3 -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X C:/Users/baneg/Desktop/SE/practicas/P3/P3/p3.AyD/otro/
